@@ -1,0 +1,26 @@
+.footer {
+  background-color: black;
+  height: 250px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  max-height: 150px;
+  overflow: hidden;
+  justify-content: space-around;
+}
+
+.footer > a {
+  font-size: 24px;
+  color: white;
+}
+
+.footer > a:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.footer > a:hover {
+  font-size: 24px;
+  color: #8f5ac5;
+}
